@@ -18,12 +18,12 @@
   flex: 1;
   min-width: 200px;
   margin: 10px 20px;
-  
-  /* Untuk center teks */
+
+  /* Membuat semua item di dalam sejajar */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertikal */
-  align-items: center;     /* horizontal */
+  justify-content: flex-start; /* atau space-between kalau mau atur top-bottom */
+  align-items: center;
   text-align: center;
 }
 
