@@ -44,7 +44,7 @@ function App() {
               {parse(aboutusSection.contect)}
             </div>
           </div>
-          <img src="images/about us.png" className='about-us-image' data-aos="fade-left" />
+          <img src="images/about us.png" className='about-us-image' data-aos="fade-left-" />
         </section>
 
         {/* Printing Tech */}
