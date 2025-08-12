@@ -1,0 +1,70 @@
+.machine_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.machine-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  gap: 30px;
+  justify-content: center;
+}
+
+.machine-tutor {
+  width: 200px;
+  text-align: center;
+}
+
+.kartu-machine{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  max-width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.kartu-machine img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+.kartu-machine p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 18px;
+  color: #364f6b;
+  margin-top: 10px;
+}
+
+.machine-list-text {
+  width: 100%;
+  font-family: "comic sans ms";
+  color: #364f6b;
+  text-align: center;
+}
+
+.machine-list-text h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.machine-list-text ul {
+  padding-left: 20px;
+  list-style-type: none;
+  padding-left: 0; /* Opsional, untuk hilangkan jarak kiri */
+
+}
+
+.machine-list-text li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
