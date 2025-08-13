@@ -36,7 +36,7 @@ function Navbar() {
     <nav className={`navbar ${showNavbar ? "show" : "hide"}`}>
       <div className="wrapper">
         <div className="logo">
-          <a href="">Bungur Jaya.</a>
+          <a href="">BUNGUR JAYA.</a>
         </div>
         <div className="menu">
           <ul>
