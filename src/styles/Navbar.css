@@ -16,11 +16,27 @@ nav {
   display: flex;
   line-height: 80px;
   position: fixed;
-  position: -webkit-sticky;
   top: 0;
   background: #ffffff;
   z-index: 9999;
   border-bottom: 1px solid #364f6b;
+}
+
+nav.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
+}
+
+nav.navbar.hide {
+  transform: translateY(-100%);
+}
+
+nav.navbar.show {
+  transform: translateY(0);
 }
 
 nav ul {
@@ -38,7 +54,7 @@ nav ul li a {
   color: black;
   font-weight: bold;
   text-align: center;
-  padding: 0px 16px 0px 16px;
+  padding: 0px 16px;
   text-decoration: none;
 }
 
@@ -46,6 +62,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* Responsif */
 @media screen and (max-width: 991.98px) {
   .logo a {
     display: block;
@@ -67,5 +84,70 @@ nav ul li a:hover {
   nav .menu ul li {
     display: inline-block;
     float: none;
+  }
+}
+
+/* Tambahan: khusus layar HP agar navbar lebih kecil */
+@media screen and (max-width: 768px) {
+  .logo a {
+    font-size: 28px; /* dari 50px jadi lebih kecil */
+    line-height: normal;
+  }
+
+  nav {
+    line-height: 50px; /* dari 80px jadi 50px */
+    padding: 5px 0;
+  }
+
+  nav ul li a {
+    font-size: 14px; /* kecilkan font menu */
+    padding: 0 8px; /* jarak kiri-kanan lebih kecil */
+  }
+
+  .contact-button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
+
+/* Responsive khusus layar HP */
+@media screen and (max-width: 768px) {
+  .logo a {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0;
+  }
+
+  nav {
+    line-height: 32px;
+    padding: 0 0;
+    min-height: 40px;
+  }
+
+  nav .menu ul {
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav .menu ul li {
+    margin: 0 2px;
+  }
+
+  nav ul li a {
+    font-size: 11px;
+    padding: 0 3px;
+    min-width: 40px;
+    box-sizing: border-box;
+  }
+
+  .contact-button,
+  nav ul li .tbl-biru {
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    min-width: 60px;
+    box-sizing: border-box;
+    margin: 0;
   }
 }

@@ -5,10 +5,22 @@
   box-sizing: border-box;
 }
 
-html, body {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   margin: 0;
   padding: 0;
-  padding-top: 30px;
+}
+
+.main-content {
+  padding-top: 90px; /* tinggi navbar di laptop */
+}
+
+html,
+body {
+  margin: 0;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden; /* cegah scroll horizontal */
 }
@@ -30,5 +42,17 @@ img {
 @media screen and (max-width: 991.98px) {
   .wrapper {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding-top: 60px; /* tinggi navbar di HP */
+  }
+
+  body,
+  main,
+  .main-content {
+    padding-top: 70px; /* naikkan sesuai tinggi navbar di mobile */
   }
 }

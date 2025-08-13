@@ -22,7 +22,7 @@
   /* Membuat semua item di dalam sejajar */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* atau space-between kalau mau atur top-bottom */
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
 }
@@ -45,11 +45,17 @@
 @media screen and (max-width: 768px) {
   .info {
     flex-direction: column;
-    align-items: center;
+    align-items: center;   /* center secara horizontal */
+    justify-content: center; /* center secara vertikal (kalau tinggi kontainer cukup) */
+    text-align: center;
+    gap: 20px; /* biar jarak antar section rapi */
   }
   
   .info-section {
-    width: 100%;
-    margin-bottom: 20px;
+    width: auto; /* biar lebar ngikut konten */
+    margin: 0;   /* reset margin */
+    align-items: center;
+    text-align: center;
   }
 }
+

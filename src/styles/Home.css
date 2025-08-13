@@ -33,7 +33,7 @@ a.tbl-biru:hover {
 }
 
 a.tbl-pink {
-  background: #fc5185;
+  background: #3f72af;
   border-radius: 20px;
   margin-top: 20px;
   padding: 15px 20px 15px 20px;
@@ -42,8 +42,9 @@ a.tbl-pink {
   font-weight: bold;
 }
 
+
 a.tbl-pink:hover {
-  background: #3f72af;
+  background: #fc5185;
   text-decoration: none;
 }
 section {
