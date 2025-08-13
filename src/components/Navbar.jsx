@@ -64,6 +64,17 @@ function Navbar() {
             </li>
             <li>
               <Link
+                to="packaging"
+                smooth={true}
+                duration={500}
+                offset={-80}
+                onClick={handleMenuClick}
+              >
+                Packaging
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="tutors"
                 smooth={true}
                 duration={500}
