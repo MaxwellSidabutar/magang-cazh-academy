@@ -1,11 +1,11 @@
-#copyright {
+#wrapper {
   text-align: right;
   width: 100%;
   padding: 50px 0px 10px 0px;
   margin-top: 50px;
 }
 
-#footer{
+#footer {
   margin-bottom: 100px;
   text-align: right;
   position: relative; /* biar ikut parent kalau dibungkus di dalam contact */

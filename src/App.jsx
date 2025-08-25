@@ -33,7 +33,7 @@ function App() {
           <section id="home" data-aos="fade-up">
             <img src="images/logo.png" alt="Home Logo" className="logohome" />
             <div className="kolom">
-              <h2 className="beranda">CV. Bungur Jaya</h2>
+              <h2 className="beranda">CV. BUNGUR JAYA</h2>
               <p className="beranda">
                 Solusi Percetakan Industri Terpercaya di Indonesia sejak 1977
               </p>
@@ -66,7 +66,7 @@ function App() {
           {/* Trusted By */}
           <section id="trusted" data-aos="fade-up">
             <div className="tengah">
-              <div className="kolom">
+              <div className="kolomclient">
                 <p className="deskripsi">Our Top Partners</p>
                 <h2>Partners</h2>
                 <hr />

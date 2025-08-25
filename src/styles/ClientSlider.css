@@ -65,4 +65,9 @@
   .client-caption {
     font-size: 0.8rem;
   }
+
+  .client-slider-container {
+    margin-top: 10px; /* lebih ke atas */
+    padding: 16px;
+  }
 }
